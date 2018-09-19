@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.ListItemFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ConvertEditText" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ConvertProgressBar" parent="Theme.AppCompat.Light">
+        <item name="android:indeterminateTint">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="ConvertButton" parent="Theme.AppCompat.Light">
+        <item name="android:colorButtonNormal">?android:attr/colorAccent</item>
+        <item name="android:textColorPrimary">?android:textColorPrimaryInverse</item>
+        <item name="android:actionMenuTextColor">?android:textColorPrimary</item>
+    </style>
+</resources>
